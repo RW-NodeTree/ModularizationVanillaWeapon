@@ -15,6 +15,9 @@
 						<li>Gun_ModularMachinePistol</li>
 						<li>Gun_ModularSniperRifle</li>
 						<li>Gun_ModularBoltActionRifle</li>
+						<li>Gun_ModularAutoPistol</li>
+						<li>Gun_ModularRevolver</li>
+						<li>Gun_ModularChargeRifle</li>
 					</thingDefs>
 				</filter>
 			</li>
