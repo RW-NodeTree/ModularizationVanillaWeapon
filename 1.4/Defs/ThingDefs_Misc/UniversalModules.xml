@@ -195,6 +195,7 @@
 		<comps>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<PartTexPath>Things/WeaponPart/Gun/BoltActionRifle/4X_8XSniperScope</PartTexPath>
+				<drawChildPartWhenOnGround>false</drawChildPartWhenOnGround>
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
 				<verbPropertiesMultiplier>
 					<li>
