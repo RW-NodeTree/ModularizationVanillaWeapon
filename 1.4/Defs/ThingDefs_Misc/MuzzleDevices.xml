@@ -32,6 +32,9 @@
 					<AccuracyTouch>1.15</AccuracyTouch>
 					<AccuracyShort>1.15</AccuracyShort>
 				</statMultiplier>
+				<statOffset>
+					<HuntingStealth>.5</HuntingStealth>
+				</statOffset>
 			</li>
 		</comps>
 	</ThingDef>
