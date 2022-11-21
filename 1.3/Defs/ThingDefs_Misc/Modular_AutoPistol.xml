@@ -175,7 +175,7 @@
 		<label>modular revolver</label>
 		<description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+			<texPath>Things/WeaponPart/Gun/Revolver/Revolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
