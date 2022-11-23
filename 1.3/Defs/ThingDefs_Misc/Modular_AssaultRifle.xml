@@ -118,7 +118,7 @@
 						<id>ModAR_UnderBarrel</id>
 						<name>under barrel</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
-						<verbPropertiesObjectPatchByChildPart>false</verbPropertiesObjectPatchByChildPart>
+						<verbPropertiesObjectPatchByChildPart Default="false" />
 						<postion>(0,0.1,0)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>

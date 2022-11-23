@@ -39,11 +39,11 @@
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/GrenadeLauncher</PartTexPath>
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
-				<verbPropertiesOtherPartOffseterAffectHorizon>0</verbPropertiesOtherPartOffseterAffectHorizon>
-				<verbPropertiesOtherPartMultiplierAffectHorizon>0</verbPropertiesOtherPartMultiplierAffectHorizon>
-				<statOtherPartOffseterAffectHorizon>0</statOtherPartOffseterAffectHorizon>
-				<statOtherPartMultiplierAffectHorizon>0</statOtherPartMultiplierAffectHorizon>
-				<verbPropertiesObjectPatchByOtherPart>false</verbPropertiesObjectPatchByOtherPart>
+				<verbPropertiesOtherPartOffseterAffectHorizon Default="0"/>
+				<toolsOtherPartOffseterAffectHorizon Default="0"/>
+				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
+				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<attachmentProperties>
 					<li>
 						<id>Module_UBGL</id>
@@ -104,11 +104,11 @@
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<PartTexPath>Things/WeaponPart/Gun/ChainShotgun/LightGrenadeLauncher</PartTexPath>
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
-				<verbPropertiesOtherPartOffseterAffectHorizon>0</verbPropertiesOtherPartOffseterAffectHorizon>
-				<verbPropertiesOtherPartMultiplierAffectHorizon>0</verbPropertiesOtherPartMultiplierAffectHorizon>
-				<statOtherPartOffseterAffectHorizon>0</statOtherPartOffseterAffectHorizon>
-				<statOtherPartMultiplierAffectHorizon>0</statOtherPartMultiplierAffectHorizon>
-				<verbPropertiesObjectPatchByOtherPart>false</verbPropertiesObjectPatchByOtherPart>
+				<verbPropertiesOtherPartOffseterAffectHorizon Default="0"/>
+				<toolsOtherPartOffseterAffectHorizon Default="0"/>
+				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
+				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<attachmentProperties>
 					<li>
 						<id>Module_UBGL</id>
@@ -280,10 +280,11 @@
 		</verbs>
 		<comps>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
-				<verbPropertiesOtherPartOffseterAffectHorizon>0</verbPropertiesOtherPartOffseterAffectHorizon>
-				<verbPropertiesOtherPartMultiplierAffectHorizon>0</verbPropertiesOtherPartMultiplierAffectHorizon>
-				<statOtherPartOffseterAffectHorizon>0</statOtherPartOffseterAffectHorizon>
-				<statOtherPartMultiplierAffectHorizon>0</statOtherPartMultiplierAffectHorizon>
+				<verbPropertiesOtherPartOffseterAffectHorizon Default="0"/>
+				<toolsOtherPartOffseterAffectHorizon Default="0"/>
+				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
+				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/Masterkey</PartTexPath>
 			</li>
 		</comps>

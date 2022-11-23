@@ -50,10 +50,14 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_ModularHeavySMG"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
 		<value>
-			<compPropertiesAffectCompType>
+			<compGetGizmosExtraAllowedCompType>
 				<li>CombatExtended.CompAmmoUser</li>
 				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesAffectCompType>
+			</compGetGizmosExtraAllowedCompType>
+			<compPropertiesInitializeCompType>
+				<li>CombatExtended.CompAmmoUser</li>
+				<li>CombatExtended.CompFireModes</li>
+			</compPropertiesInitializeCompType>
 			<compPropertiesCreateInstanceCompType>
 				<li>CombatExtended.CompFireModes</li>
 			</compPropertiesCreateInstanceCompType>

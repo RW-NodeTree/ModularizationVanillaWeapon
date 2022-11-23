@@ -49,13 +49,28 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_ModularAssaultRifle"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
 		<value>
-			<compPropertiesAffectCompType>
+			<compGetGizmosExtraAllowedCompType>
 				<li>CombatExtended.CompAmmoUser</li>
 				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesAffectCompType>
+			</compGetGizmosExtraAllowedCompType>
+			<compPropertiesInitializeCompType>
+				<li>CombatExtended.CompAmmoUser</li>
+				<li>CombatExtended.CompFireModes</li>
+			</compPropertiesInitializeCompType>
 			<compPropertiesCreateInstanceCompType>
 				<li>CombatExtended.CompFireModes</li>
 			</compPropertiesCreateInstanceCompType>
+		</value>
+		<order>Append</order>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_ModularAssaultRifle"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/attachmentProperties/li[id="ModAR_UnderBarrel"]</xpath>
+		<value>
+			<allowedExtraCompType>
+				<li>CombatExtended.BipodComp</li>
+			</allowedExtraCompType>
 		</value>
 		<order>Append</order>
 	</Operation>
