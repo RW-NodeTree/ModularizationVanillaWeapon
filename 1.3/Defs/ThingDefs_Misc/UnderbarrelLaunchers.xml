@@ -43,7 +43,7 @@
 				<toolsOtherPartOffseterAffectHorizon Default="0"/>
 				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
 				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
-				<verbPropertiesObjectPatchByOtherPart>false</verbPropertiesObjectPatchByOtherPart>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<attachmentProperties>
 					<li>
 						<id>Module_UBGL</id>
@@ -108,7 +108,7 @@
 				<toolsOtherPartOffseterAffectHorizon Default="0"/>
 				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
 				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
-				<verbPropertiesObjectPatchByOtherPart>false</verbPropertiesObjectPatchByOtherPart>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<attachmentProperties>
 					<li>
 						<id>Module_UBGL</id>
@@ -284,6 +284,7 @@
 				<toolsOtherPartOffseterAffectHorizon Default="0"/>
 				<statOtherPartOffseterAffectHorizonDefaultValue>0</statOtherPartOffseterAffectHorizonDefaultValue>
 				<statOtherPartMultiplierAffectHorizonDefaultValue>0</statOtherPartMultiplierAffectHorizonDefaultValue>
+				<verbPropertiesObjectPatchByOtherPart Default="false"/>
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/Masterkey</PartTexPath>
 			</li>
 		</comps>
