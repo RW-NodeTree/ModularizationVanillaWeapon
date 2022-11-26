@@ -101,7 +101,7 @@
 						<id>ModAP_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.08,0.1,0.015)</postion>
+						<postion>(0.140625,0.1,0.046875)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
