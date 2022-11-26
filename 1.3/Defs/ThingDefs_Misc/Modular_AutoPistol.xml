@@ -15,7 +15,6 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-			<displayPriority>405</displayPriority>
 		</recipeMaker>
 		<weaponTags>
 			<li>SimpleGun</li>
@@ -207,7 +206,6 @@
 			<skillRequirements>
 				<Crafting>3</Crafting>
 			</skillRequirements>
-			<displayPriority>400</displayPriority>
 		</recipeMaker>
 		<verbs>
 			<li>

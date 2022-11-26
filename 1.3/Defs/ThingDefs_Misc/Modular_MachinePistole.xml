@@ -22,7 +22,6 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-			<displayPriority>410</displayPriority>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>

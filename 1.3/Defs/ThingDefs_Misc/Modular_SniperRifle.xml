@@ -18,7 +18,6 @@
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
-			<displayPriority>425</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
@@ -161,7 +160,6 @@
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
-			<displayPriority>415</displayPriority>
 		</recipeMaker>
 		<verbs>
 			<li>
