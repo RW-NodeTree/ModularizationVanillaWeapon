@@ -334,6 +334,7 @@
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
 						<postion>(0.49,0.1,0.005)</postion>
+						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>

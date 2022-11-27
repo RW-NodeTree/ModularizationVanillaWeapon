@@ -302,6 +302,7 @@
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
 						<postion>(0.48,0.1,0)</postion>
+						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -378,6 +379,7 @@
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
 						<postion>(0.48,0.1,0)</postion>
+						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
