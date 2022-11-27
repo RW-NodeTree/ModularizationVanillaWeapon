@@ -65,6 +65,19 @@
 		<order>Append</order>
 	</Operation>
 
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<value>
+			<burstShotCount>6</burstShotCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Module_HvySNG_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<value>
+			<burstShotCount>6</burstShotCount>
+		</value>
+	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
