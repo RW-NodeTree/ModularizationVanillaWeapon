@@ -221,8 +221,9 @@
 						<id>ModSC_SubScope</id>
 						<name>Sub Scope</name>
 						<allowEmpty>true</allowEmpty>
-						<UITexPath>Things/WeaponPart/Gun/AssaultRifle/Item_RedDot/Item_RedDot1</UITexPath>
-						<postion>(0.05,0.1,0.06875)</postion>
+						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
+						<postion>(-0.0078125,0.1,0.084375)</postion>
+						<scale>(0.8,1,0.8)</scale>
 						<filter>
 						<thingDefs>
 							<li>Module_HoloSight</li>
