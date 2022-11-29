@@ -112,7 +112,7 @@
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
-					<magazineSize>10</magazineSize>
+					<magazineSize>8</magazineSize>
 				</il>
 			</compPropertiesObjectPatch>
 		</value>
