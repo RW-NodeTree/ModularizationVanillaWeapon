@@ -11,7 +11,6 @@
 			<texPath>Things/Item/Health/HealthItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
-			<color>(189,169,118)</color>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
@@ -64,10 +63,9 @@
 			<Mass>0.5</Mass>
 		</statBases>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_ACOG</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Scope_ACOG</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope_acog</uiIconPath>
 		<costList>
 			<Plasteel>10</Plasteel>
 			<Steel>25</Steel>
@@ -107,10 +105,9 @@
 			<Mass>0.3</Mass>
 		</statBases>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_Holographic</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Scope_Holo</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope_Holo</uiIconPath>
 		<costList>
 			<Plasteel>20</Plasteel>
 			<Steel>10</Steel>
@@ -141,13 +138,12 @@
 		<label>red dot sight</label>
 		<description>An aiming device of relative low technology requirement, while it works good at close distance, the projected red dot obstructs aiming when target is far and small.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_RedDot</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Scope_RedDot</texPath>
 		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope_RedDot</uiIconPath>
 		<recipeMaker>
 			<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 		</recipeMaker>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</uiIconPath>
 		<costList>
 			<Steel>25</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -179,9 +175,9 @@
 			<Mass>0.7</Mass>
 		</statBases>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/BoltActionRifle/Item_4X_8XSniperScope</texPath>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Scope_Sniper</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope_Sniper</uiIconPath>
 		<costList>
 			<Steel>35</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
@@ -225,10 +221,10 @@
 						<postion>(-0.0078125,0.1,0.084375)</postion>
 						<scale>(0.8,1,0.8)</scale>
 						<filter>
-						<thingDefs>
-							<li>Module_HoloSight</li>
-							<li>Module_RedDotSight</li>
-						</thingDefs>
+							<thingDefs>
+								<li>Module_HoloSight</li>
+								<li>Module_RedDotSight</li>
+							</thingDefs>
 						</filter>
 					</li>
 				</attachmentProperties>
@@ -243,10 +239,9 @@
 		<label>bipod</label>
 		<description>This device allows resting the gun on the ground, offering better accuracy. However deploying and stowing the bipod takes significant time.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_Armrack</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_Bipod</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_Bipod</uiIconPath>
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -277,16 +272,15 @@
 		<label>vertical grip</label>
 		<description>A handy grip allows faster aiming.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_Grip</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_VertiGrip</texPath>
 		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_VertiGrip</uiIconPath>
 		<recipeMaker>
 			<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
 		<comps>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/Grip</PartTexPath>
@@ -308,16 +302,16 @@
 		<label>angled grip</label>
 		<description>A handy grip allows faster aiming.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_TriangleGrip</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_AngledGrip</texPath>
 		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_AngledGrip</uiIconPath>
 		<recipeMaker>
 			<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
+
 		<comps>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/TriangleGrip</PartTexPath>

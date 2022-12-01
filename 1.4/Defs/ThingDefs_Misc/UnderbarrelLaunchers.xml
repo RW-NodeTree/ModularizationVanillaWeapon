@@ -5,10 +5,9 @@
 		<label>UBGL</label>
 		<description>Underbarrel grenade launcher that can launch a variety of payloads.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_GrenadeLauncher</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_UBGL</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_UBGL</uiIconPath>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>0.5</Mass>
@@ -70,10 +69,9 @@
 		<label>light UBGL</label>
 		<description>Underbarrel grenade launcher that can launch a variety of payloads.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/ChainShotgun/Item_LightGrenadeLauncher</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_UBGL</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_UBGL</uiIconPath>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>0.5</Mass>
@@ -153,7 +151,10 @@
 		<defName>Module_UBGL_Farg</defName>
 		<label>Farg grenade</label>
 		<description>Standard clip magazine</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Ammo_HE</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo_HE</uiIconPath>
 		<statBases>
 			<WorkToMake>60</WorkToMake>
 			<Mass>0.2</Mass>
@@ -178,7 +179,10 @@
 		<defName>Module_UBGL_EMP</defName>
 		<label>EMP grenade</label>
 		<description>Standard clip magazine</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Ammo_EMP</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo_EMP</uiIconPath>
 		<statBases>
 			<WorkToMake>60</WorkToMake>
 			<Mass>0.2</Mass>
@@ -203,7 +207,10 @@
 		<defName>Module_UBGL_Inc</defName>
 		<label>incendiary grenade</label>
 		<description>Standard clip magazine</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Ammo_Inc</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo_Inc</uiIconPath>
 		<statBases>
 			<WorkToMake>60</WorkToMake>
 			<Mass>0.1</Mass>
@@ -228,7 +235,10 @@
 		<defName>Module_UBGL_Smoke</defName>
 		<label>smoke grenade</label>
 		<description>Standard clip magazine</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Ammo_Smoke</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Ammo_Smoke</uiIconPath>
 		<statBases>
 			<WorkToMake>60</WorkToMake>
 			<Mass>0.1</Mass>
@@ -254,10 +264,9 @@
 		<label>Masterkey UBSG</label>
 		<description>Underbarrel shotgun designed for door breaching or human breaching.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_Masterkey</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Underbarrel_UBSG</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel_UBSG</uiIconPath>
 		<statBases>
 			<Mass>0.5</Mass>
 		</statBases>

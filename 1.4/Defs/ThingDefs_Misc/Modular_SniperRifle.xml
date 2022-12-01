@@ -261,10 +261,9 @@
 		<label>bolt action rifle long barrel</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_LengthenedBarrel</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Barrel_Long</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Barrel_Long</uiIconPath>
 		<recipeMaker>
 			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
 		</recipeMaker>
@@ -338,10 +337,9 @@
 		<label>sniper rifle long barrel</label>
 		<description>TODO</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_LengthenedBarrel</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Barrel_Long</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Barrel_Long</uiIconPath>
 		<recipeMaker>
 			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
 		</recipeMaker>

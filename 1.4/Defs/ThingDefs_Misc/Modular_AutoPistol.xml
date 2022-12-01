@@ -147,12 +147,11 @@
 	<ThingDef ParentName="GunPartBase">
 		<defName>Module_AP_MagClip</defName>
 		<label>autopistol magazine</label>
-		<description>Standard 30 round clip magazine designed for various assault rifles.</description>
+		<description>Standard 8 round pistol magazine.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/Autopistol/Item_Autopistol_Magazine</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Magazine_Pistol</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag_Pistol</uiIconPath>
 		<statBases>
 			<WorkToMake>500</WorkToMake>
 			<Mass>0.1</Mass>

@@ -195,10 +195,9 @@
 		<label>SMG magazine</label>
 		<description>Standard 30 round clip magazine designed for heavy SMG.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/HeavySMG/Item_HeavySMG_Magazine</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Magazine_Pistol</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag_Pistol</uiIconPath>
 		<statBases>
 			<WorkToMake>500</WorkToMake>
 		</statBases>
@@ -225,10 +224,9 @@
 		<label>SMG drum magazine</label>
 		<description>100 round drum magazine provides better sustained firepower, at the cost of reload speed. It also affects the center of gravity of the gun, making it unwieldy.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/HeavySMG/Item_HeavySMG_CartridgeDrum</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Magazine_Drum</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag_Drum</uiIconPath>
 		<statBases>
 			<Mass>0.6</Mass>
 			<WorkToMake>2500</WorkToMake>
@@ -268,7 +266,10 @@
 		<defName>Module_HvySMG_Chamber</defName>
 		<label>reinforced receiver</label>
 		<description>TODO</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Receiver</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Component_Generic</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Receiver_Component</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 		</statBases>
@@ -301,7 +302,10 @@
 		<defName>Module_HvySMG_WireStock</defName>
 		<label>wire stock</label>
 		<description>A better-than-nothing stock that can somehow improve firing stability.</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Stock</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Stock_Simple</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Stock_Simple</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 			<WorkToMake>500</WorkToMake>
@@ -331,6 +335,9 @@
 		<defName>Module_HvySMG_Stock</defName>
 		<label>combat stock</label>
 		<description>A ergonomical stock that can improve firing stability.</description>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Stock_Generic</texPath>
+		</graphicData>
 		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Stock</uiIconPath>
 		<statBases>
 			<Mass>0.3</Mass>

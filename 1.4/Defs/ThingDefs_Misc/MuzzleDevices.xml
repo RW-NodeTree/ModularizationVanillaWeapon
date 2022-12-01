@@ -5,10 +5,9 @@
 		<label>silencer</label>
 		<description>An complex muzzle device that muffles gun shot sound.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_Muffler</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Muzzle_Suppresor</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle_Suppresor</uiIconPath>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>0.5</Mass>
@@ -44,10 +43,9 @@
 		<label>muzzle brake</label>
 		<description>A muzzle device that reduces recoil.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_MuzzleBrake</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Muzzle_Brake</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle_Brake</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 		</statBases>
@@ -73,10 +71,9 @@
 		<label>muzzle compensator</label>
 		<description>A muzzle device that reduces muzzle jump.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_MuzzleCompensator</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Muzzle_Compensator</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle_Compensator</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 		</statBases>
@@ -102,10 +99,9 @@
 		<label>flash hider</label>
 		<description>A muzzle device that reduces muzzle flash.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/AssaultRifle/Item_AssaultRifle_FlameDamper</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Muzzle_FlashHider</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle_FlashHider</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 		</statBases>

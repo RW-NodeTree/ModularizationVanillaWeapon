@@ -292,8 +292,7 @@
 		<label>chain shotgun magazine</label>
 		<description>Standard 10 round clip magazine designed for the chain shotgun.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/ChainShotgun/Item_ChainShotgun_Magazine</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Magazine_Generic</texPath>
 		</graphicData>
 		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</uiIconPath>
 		<statBases>
@@ -323,10 +322,9 @@
 		<label>chain shotgun drum magazine</label>
 		<description>20 round drum magazine provides better sustained firepower, at the cost of reload speed. It also affects the center of gravity of the gun, making it unwieldy.</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/ChainShotgun/Item_ChainShotgun_CartridgeDrum</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Magazine_Drum</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag_Drum</uiIconPath>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>0.7</Mass>
@@ -367,10 +365,9 @@
 		<label>muzzle choke</label>
 		<description>An muzzle device that tightens the spread of pellets, making it more accurate at medium distance, but harder to hit at close range..</description>
 		<graphicData>
-			<texPath>Things/WeaponPart/Gun/ChainShotgun/Item_ChainShotgun_Buncher</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Muzzle_Choke</texPath>
 		</graphicData>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</uiIconPath>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle_Choke</uiIconPath>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>0.5</Mass>
@@ -401,7 +398,10 @@
 		<defName>Module_ModChainSG_Chamber</defName>
 		<label>reinforced receiver</label>
 		<description>TODO</description>
-		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Receiver</uiIconPath>
+		<graphicData>
+			<texPath>Things/WeaponPart/Parts/AttachmentItem_Component_Generic</texPath>
+		</graphicData>
+		<uiIconPath>ui/icons/AttachmentIcon/AttachmentIcon_Receiver_Component</uiIconPath>
 		<statBases>
 			<Mass>0.1</Mass>
 		</statBases>
