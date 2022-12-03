@@ -111,7 +111,7 @@
 						<id>ModCR_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.04,0.1,0)</postion>
+						<postion>(0.075,0.1,-0.005)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -128,7 +128,7 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<verbPropertiesObjectPatchByChildPart Default="false" />
 						<allowEmpty>true</allowEmpty>
-						<postion>(0.04,0.1,-0.01)</postion>
+						<postion>(0.05,0.1,0)</postion>
 						<filter>
 							<thingDefs>
 								<li>Module_Bipod</li>
