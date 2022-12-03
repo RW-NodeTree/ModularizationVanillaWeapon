@@ -93,7 +93,7 @@
 						<id>ModCR_Magazine</id>
 						<name>magazine</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</UITexPath>
-						<postion>(0,0.1,0.02)</postion>
+						<postion>(0,0.1,0)</postion>
 						<defultThing>Module_CR_Mag</defultThing>
 						<allowEmpty>true</allowEmpty>
 						<filter>
@@ -128,7 +128,7 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<verbPropertiesObjectPatchByChildPart Default="false" />
 						<allowEmpty>true</allowEmpty>
-						<postion>(0.01,0.1,-0.02)</postion>
+						<postion>(0.02,0.1,-0.01)</postion>
 						<filter>
 							<thingDefs>
 								<li>Module_Bipod</li>
