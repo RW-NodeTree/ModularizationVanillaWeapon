@@ -147,8 +147,8 @@
 						<id>ModAR_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.49,0.1,0.005)</postion>
-						<scale>(0.5,0,0.5)</scale>
+						<postion>(0.5,0.1,0.0078125)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -157,6 +157,7 @@
 								<li>Module_MuzzleCompensator</li>
 								<li>Module_FlashHider</li>
 								<li>Module_AR_LongBarrel</li>
+								<li>Module_Bayonet</li>
 							</thingDefs>
 						</filter>
 					</li>
@@ -333,7 +334,7 @@
 						<id>ModARLong_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.49,0.1,0.005)</postion>
+						<postion>(0.375,0.1,0)</postion>
 						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>

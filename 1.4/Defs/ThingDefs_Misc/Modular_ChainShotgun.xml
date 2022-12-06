@@ -145,8 +145,8 @@
 						<id>ModChainSG_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.45,0.1,-0.01)</postion>
-						<scale>(0.5,0,0.5)</scale>
+						<postion>(0.46875,0.1,-0.0078125)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -257,8 +257,8 @@
 						<id>ModPumpSG_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.5,0.1,0.03)</postion>
-						<scale>(0.5,0,0.5)</scale>
+						<postion>(0.5,0.1,0.02734375)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
