@@ -130,7 +130,7 @@
 			</li>
 		</comps>
 	</ThingDef>
- 
+
 	<ThingDef ParentName="GunPartBase">
 		<defName>Module_Bayonet</defName>
 		<label>bayonet</label>
