@@ -85,7 +85,8 @@
 						<id>ModSR_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.05,0.1,-0.03)</postion>
+						<postion>(0,0.1,-0.01171875)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -101,7 +102,7 @@
 						<name>under barrel</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<allowEmpty>true</allowEmpty>
-						<postion>(-0.04,0.1,-0.01)</postion>
+						<postion>(-0.0546875,0.1,-0.015625)</postion>
 						<filter>
 							<thingDefs>
 								<li>Module_Bipod</li>
@@ -114,7 +115,7 @@
 						<id>ModAR_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.5,0.1,0.00390625)</postion>
+						<postion>(0.5,0.1,0.0078125)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
@@ -209,7 +210,8 @@
 						<id>ModRF_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.05,-0.1,-0.03)</postion>
+						<postion>(0.078125,0.1,0.01953125)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -225,7 +227,7 @@
 						<name>under barrel</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<allowEmpty>true</allowEmpty>
-						<postion>(-0.04,0.1,-0.01)</postion>
+						<postion>(-0.0546875,0.1,-0.00390625)</postion>
 						<filter>
 							<thingDefs>
 								<li>Module_Bipod</li>

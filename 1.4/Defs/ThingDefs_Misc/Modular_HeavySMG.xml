@@ -137,7 +137,8 @@
 						<name>under barrel</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<allowEmpty>true</allowEmpty>
-						<postion>(0.04,0.1,-0.02734375)</postion>
+						<postion>(-0.0390625,0.1,-0.015625)</postion>
+						<scale>(1.333333333333333,1,1.333333333333333)</scale>
 						<filter>
 							<thingDefs>
 								<li>Module_VerticalGrip</li>
@@ -161,8 +162,7 @@
 						<id>ModHvySMG_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.359375,0.1,0.0078125)</postion>
-						<scale>(0.75,0,0.75)</scale>
+						<postion>(0.375,0.1,0.0078125)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>

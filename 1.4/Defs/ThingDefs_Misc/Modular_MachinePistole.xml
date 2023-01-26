@@ -85,7 +85,7 @@
 						<id>ModMP_Magazine</id>
 						<name>magazine</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</UITexPath>
-						<postion>(0,0.1,0)</postion>
+						<postion>(0,0.1,0.00390625)</postion>
 						<defultThing>Module_HvySMG_MagClip</defultThing>
 						<allowEmpty>true</allowEmpty>
 						<filter>
@@ -103,7 +103,7 @@
 						<id>ModMP_Stock</id>
 						<name>stock</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Stock</UITexPath>
-						<postion>(-0.5,-0.1,0.03)</postion>
+						<postion>(-0.5,-0.1,0.03125)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -116,8 +116,7 @@
 						<id>ModMP_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0,0.1,0.015)</postion>
-						<scale>(1.2,0,1.2)</scale>
+						<postion>(0,0.1,0.02734375)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -144,8 +143,7 @@
 						<id>ModMP_Muzzle</id>
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
-						<postion>(0.3515625,0.1,0.0390625)</postion>
-						<scale>(0.75,0,0.75)</scale>
+						<postion>(0.375,0.1,0.0390625)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>

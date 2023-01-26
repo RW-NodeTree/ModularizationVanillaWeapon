@@ -104,7 +104,8 @@
 						<id>ModChainSG_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.1,0.1,-0.01)</postion>
+						<postion>(0.0625,0.1,-0.0078125)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -119,7 +120,7 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<verbPropertiesObjectPatchByChildPart Default="false" />
 						<allowEmpty>true</allowEmpty>
-						<postion>(0.03,0.1,0)</postion>
+						<postion>(0.03125,0.1,-0.00390625)</postion>
 						<filter>
 							<thingDefs>
 								<li>Module_UBGLLight</li>
@@ -145,7 +146,7 @@
 						<name>muzzle</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Muzzle</UITexPath>
 						<postion>(0.46875,0.1,-0.0078125)</postion>
-						<scale>(0.75,0,0.75)</scale>
+						<scale>(0.75,1,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -242,7 +243,8 @@
 						<id>ModPumpSG_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.15,0.1,0)</postion>
+						<postion>(0.1640625,0.1,0.01171875)</postion>
+						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>

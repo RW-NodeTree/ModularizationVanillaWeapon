@@ -82,7 +82,7 @@
 						<id>ModAP_Magazine</id>
 						<name>magazine</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Mag</UITexPath>
-						<postion>(-0.17,0.1,-0.09)</postion>
+						<postion>(-0.1796875,0.1,-0.09375)</postion>
 						<defultThing>Module_AP_MagClip</defultThing>
 						<allowEmpty>true</allowEmpty>
 						<filter>
@@ -100,7 +100,7 @@
 						<id>ModAP_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.140625,0.1,0.0390625)</postion>
+						<postion>(0.2109375,0.1,0.0390625)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
@@ -253,7 +253,7 @@
 						<id>ModRev_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.09,0.1,0.06)</postion>
+						<postion>(0.1171875,0.1,0.00703125)</postion>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>

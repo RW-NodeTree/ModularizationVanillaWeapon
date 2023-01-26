@@ -36,7 +36,4 @@
 		<li>RWNodeTree.RWNodeTree</li>
 		<li>RWNodeTree.RWWeaponModularization</li>
 	</loadAfter>
-	<loadBefore>
-		<li>CETeam.CombatExtended</li>
-	</loadBefore>
 </ModMetaData>
