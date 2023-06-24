@@ -80,6 +80,7 @@
 			</li>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
+				<drawOutlineOnRoot>true</drawOutlineOnRoot>
 				<attachmentProperties>
 					<li>
 						<id>ModSR_Sight</id>
@@ -205,6 +206,7 @@
 			</li>
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
+				<drawOutlineOnRoot>true</drawOutlineOnRoot>
 				<attachmentProperties>
 					<li>
 						<id>ModRF_Sight</id>
