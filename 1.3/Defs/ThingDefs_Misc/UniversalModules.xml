@@ -48,7 +48,8 @@
 			<li Class="RW_NodeTree.CompProperties_ChildNodeProccesser">
 				<TextureSizeFactor>256</TextureSizeFactor>
 				<TextureFilterMode>Point</TextureFilterMode>
-				<ForceNodeIdControl>true</ForceNodeIdControl>
+				<VerbTrackerAllVerbRedictory>true</VerbTrackerAllVerbRedictory>
+				<!-- <ForceNodeIdControl>true</ForceNodeIdControl> -->
 			</li>
 		</comps>
 	</ThingDef>
@@ -157,7 +158,7 @@
 				<PartTexPath>Things/WeaponPart/Gun/AssaultRifle/RedDot</PartTexPath>
 				<verbPropertiesOffseter>
 					<li>
-						<warmupTime>0.2</warmupTime>
+						<warmupTime>-0.2</warmupTime>
 					</li>
 				</verbPropertiesOffseter>
 				<statMultiplier>
