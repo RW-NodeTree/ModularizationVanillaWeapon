@@ -3,24 +3,18 @@
 
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
-		<xpath>*/ThingDef[defName="TableMachining"]/comps</xpath>
+		<xpath>*/ThingDef[defName="TableMachining"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_CustomWeaponPort"]/filter/thingDefs</xpath>
 		<value>
-			<li Class="RW_ModularizationWeapon.CompProperties_CustomWeaponPort">
-				<filter>
-					<thingDefs>
-						<li>Gun_ModularAssaultRifle</li>
-						<li>Gun_ModularHeavySMG</li>
-						<li>Gun_ModularChainShotgun</li>
-						<li>Gun_ModularPumpShotgun</li>
-						<li>Gun_ModularMachinePistol</li>
-						<li>Gun_ModularSniperRifle</li>
-						<li>Gun_ModularBoltActionRifle</li>
-						<li>Gun_ModularAutoPistol</li>
-						<li>Gun_ModularRevolver</li>
-						<li>Gun_ModularChargeRifle</li>
-					</thingDefs>
-				</filter>
-			</li>
+			<li>Gun_ModularAssaultRifle</li>
+			<li>Gun_ModularHeavySMG</li>
+			<li>Gun_ModularChainShotgun</li>
+			<li>Gun_ModularPumpShotgun</li>
+			<li>Gun_ModularMachinePistol</li>
+			<li>Gun_ModularSniperRifle</li>
+			<li>Gun_ModularBoltActionRifle</li>
+			<li>Gun_ModularAutoPistol</li>
+			<li>Gun_ModularRevolver</li>
+			<li>Gun_ModularChargeRifle</li>
 		</value>
 		<order>Append</order>
 	</Operation>
