@@ -90,6 +90,7 @@
 						<postion>(0,0.1,0)</postion>
 						<defultThing>Module_AR_MagClip</defultThing>
 						<allowEmpty>true</allowEmpty>
+						<randomToEmptyWeight>0</randomToEmptyWeight>
 						<filter>
 							<thingDefs>
 								<li>Module_ChainSG_MagClip</li>

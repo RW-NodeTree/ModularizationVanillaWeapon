@@ -88,6 +88,7 @@
 						<postion>(0,0.1,0.00390625)</postion>
 						<defultThing>Module_HvySMG_MagClip</defultThing>
 						<allowEmpty>true</allowEmpty>
+						<randomToEmptyWeight>0</randomToEmptyWeight>
 						<filter>
 							<thingDefs>
 								<li>Module_HvySMG_MagClip</li>
