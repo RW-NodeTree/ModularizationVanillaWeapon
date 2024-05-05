@@ -257,7 +257,8 @@
 						<id>ModRev_Sight</id>
 						<name>sight</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
-						<postion>(0.1171875,0.1,0.00703125)</postion>
+						<postion>(36,1,13)</postion>
+						<postionInPixelSize>true</postionInPixelSize>
 						<allowEmpty>true</allowEmpty>
 						<filter>
 							<thingDefs>
