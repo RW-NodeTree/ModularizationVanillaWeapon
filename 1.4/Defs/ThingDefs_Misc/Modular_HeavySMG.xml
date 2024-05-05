@@ -86,7 +86,7 @@
 			<li Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon">
 				<setRandomPartWhenCreate>true</setRandomPartWhenCreate>
 				<outlineWidth>8</outlineWidth>
-				<outlineWidthInPixelSize>true</outoutlineWidthInPixelSize>
+				<outlineWidthInPixelSize>true</outlineWidthInPixelSize>
 				<attachmentProperties>
 					<li>
 						<id>ModHvySMG_Magazine</id>
