@@ -109,6 +109,7 @@
 		<xpath>Defs/ThingDef[defName="Module_HvySMG_Chamber"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
+			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>
 		</value>
 		<order>Append</order>
 	</Operation>
@@ -123,7 +124,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Module_HvySMG_Stock"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
 		<value>
-		<SwayFactor>0.75</SwayFactor>
+			<SwayFactor>0.75</SwayFactor>
 		</value>
 	</Operation>
 </Patch>

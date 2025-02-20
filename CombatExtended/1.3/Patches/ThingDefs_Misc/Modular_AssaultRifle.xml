@@ -100,11 +100,14 @@
 	</Operation>
 
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
 		<value>
-			<burstShotCount>6</burstShotCount>
+			<statOffset>
+				<BurstShotCount>4</BurstShotCount>
+			</statOffset>
 		</value>
+		<order>Append</order>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
@@ -119,6 +122,7 @@
 		<xpath>Defs/ThingDef[defName="Module_AR_Chamber"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
+			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>
 		</value>
 		<order>Append</order>
 	</Operation>

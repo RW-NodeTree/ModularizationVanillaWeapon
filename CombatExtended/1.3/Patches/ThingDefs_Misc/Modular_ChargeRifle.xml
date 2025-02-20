@@ -79,7 +79,7 @@
 			<burstShotCount>6</burstShotCount>
 		</value>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Module_CR_Mag"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
 		<value>
@@ -108,6 +108,7 @@
 		<xpath>Defs/ThingDef[defName="Module_CR_Capacitor"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
+			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>
 		</value>
 		<order>Append</order>
 	</Operation>
