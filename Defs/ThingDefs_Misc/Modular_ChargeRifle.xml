@@ -85,16 +85,10 @@
 						<defultThing>Module_CR_Mag</defultThing>
 						<allowEmpty>true</allowEmpty>
 						<randomToEmptyWeight>0</randomToEmptyWeight>
-						<filter>
-							<thingDefs>
-								<li>Module_CR_Mag</li>
-								<li>Module_CR_MagExt</li>
-							</thingDefs>
-						</filter>
-						<randomThingDefWeights>
+						<filterWithWeights>
 							<Module_CR_Mag>1</Module_CR_Mag>
 							<Module_CR_MagExt>1</Module_CR_MagExt>
-						</randomThingDefWeights>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModCR_Sight</id>
@@ -103,14 +97,12 @@
 						<postion>(0.075,0.1,-0.01171875)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_ACOG</li>
-								<li>Module_HoloSight</li>
-								<li>Module_RedDotSight</li>
-								<li>Module_SniperScope</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_ACOG>1</Module_ACOG>
+							<Module_HoloSight>1</Module_HoloSight>
+							<Module_RedDotSight>1</Module_RedDotSight>
+							<Module_SniperScope>1</Module_SniperScope>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModCR_UnderBarrel</id>
@@ -119,26 +111,22 @@
 						<verbPropertiesObjectPatchByChildPart Default="false" />
 						<allowEmpty>true</allowEmpty>
 						<postion>(0.0234375,0.1,-0.015625)</postion>
-						<filter>
-							<thingDefs>
-								<li>Module_Bipod</li>
-								<li>Module_UBGL</li>
-								<li>Module_MasterKey</li>
-								<li>Module_VerticalGrip</li>
-								<li>Module_AngledGrip</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Bipod>1</Module_Bipod>
+							<Module_UBGL>1</Module_UBGL>
+							<Module_MasterKey>1</Module_MasterKey>
+							<Module_VerticalGrip>1</Module_VerticalGrip>
+							<Module_AngledGrip>1</Module_AngledGrip>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModCR_Chamber</id>
 						<name>capacitor</name>
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Receiver</UITexPath>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_CR_Capacitor</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_CR_Capacitor>1</Module_CR_Capacitor>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>

@@ -88,14 +88,12 @@
 						<postion>(0,0.1,-0.01171875)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_ACOG</li>
-								<li>Module_HoloSight</li>
-								<li>Module_RedDotSight</li>
-								<li>Module_SniperScope</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_ACOG>1</Module_ACOG>
+							<Module_HoloSight>1</Module_HoloSight>
+							<Module_RedDotSight>1</Module_RedDotSight>
+							<Module_SniperScope>1</Module_SniperScope>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModSR_UnderBarrel</id>
@@ -103,13 +101,11 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<allowEmpty>true</allowEmpty>
 						<postion>(-0.0546875,0.1,-0.015625)</postion>
-						<filter>
-							<thingDefs>
-								<li>Module_Bipod</li>
-								<li>Module_VerticalGrip</li>
-								<li>Module_AngledGrip</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Bipod>1</Module_Bipod>
+							<Module_VerticalGrip>1</Module_VerticalGrip>
+							<Module_AngledGrip>1</Module_AngledGrip>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModAR_Muzzle</id>
@@ -118,15 +114,13 @@
 						<postion>(0.5,0.1,0.0078125)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_Silencer</li>
-								<li>Module_MuzzleBrake</li>
-								<li>Module_MuzzleCompensator</li>
-								<li>Module_FlashHider</li>
-								<li>Module_SR_LongBarrel</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Silencer>1</Module_Silencer>
+							<Module_MuzzleBrake>1</Module_MuzzleBrake>
+							<Module_MuzzleCompensator>1</Module_MuzzleCompensator>
+							<Module_FlashHider>1</Module_FlashHider>
+							<Module_SR_LongBarrel>1</Module_SR_LongBarrel>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>
@@ -213,14 +207,12 @@
 						<postion>(0.078125,0.1,0.01953125)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_ACOG</li>
-								<li>Module_HoloSight</li>
-								<li>Module_RedDotSight</li>
-								<li>Module_SniperScope</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_ACOG>1</Module_ACOG>
+							<Module_HoloSight>1</Module_HoloSight>
+							<Module_RedDotSight>1</Module_RedDotSight>
+							<Module_SniperScope>1</Module_SniperScope>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModRF_UnderBarrel</id>
@@ -228,13 +220,11 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Underbarrel</UITexPath>
 						<allowEmpty>true</allowEmpty>
 						<postion>(-0.0546875,0.1,-0.00390625)</postion>
-						<filter>
-							<thingDefs>
-								<li>Module_Bipod</li>
-								<li>Module_VerticalGrip</li>
-								<li>Module_AngledGrip</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Bipod>1</Module_Bipod>
+							<Module_VerticalGrip>1</Module_VerticalGrip>
+							<Module_AngledGrip>1</Module_AngledGrip>
+						</filterWithWeights>
 					</li>
 					<li>
 						<id>ModRF_Muzzle</id>
@@ -243,16 +233,14 @@
 						<postion>(0.5,0.1,0.0078125)</postion>
 						<scale>(0.75,0,0.75)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_Silencer</li>
-								<li>Module_MuzzleBrake</li>
-								<li>Module_MuzzleCompensator</li>
-								<li>Module_FlashHider</li>
-								<li>Module_RF_LongBarrel</li>
-								<li>Module_Bayonet</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Silencer>1</Module_Silencer>
+							<Module_MuzzleBrake>1</Module_MuzzleBrake>
+							<Module_MuzzleCompensator>1</Module_MuzzleCompensator>
+							<Module_FlashHider>1</Module_FlashHider>
+							<Module_RF_LongBarrel>1</Module_RF_LongBarrel>
+							<Module_Bayonet>1</Module_Bayonet>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>
@@ -310,14 +298,12 @@
 						<postion>(0.375,0.1,0)</postion>
 						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_Silencer</li>
-								<li>Module_MuzzleBrake</li>
-								<li>Module_MuzzleCompensator</li>
-								<li>Module_FlashHider</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Silencer>1</Module_Silencer>
+							<Module_MuzzleBrake>1</Module_MuzzleBrake>
+							<Module_MuzzleCompensator>1</Module_MuzzleCompensator>
+							<Module_FlashHider>1</Module_FlashHider>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>
@@ -390,14 +376,12 @@
 						<postion>(0.375,0.1,0)</postion>
 						<scale>(0.8,1,0.8)</scale>
 						<allowEmpty>true</allowEmpty>
-						<filter>
-							<thingDefs>
-								<li>Module_Silencer</li>
-								<li>Module_MuzzleBrake</li>
-								<li>Module_MuzzleCompensator</li>
-								<li>Module_FlashHider</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_Silencer>1</Module_Silencer>
+							<Module_MuzzleBrake>1</Module_MuzzleBrake>
+							<Module_MuzzleCompensator>1</Module_MuzzleCompensator>
+							<Module_FlashHider>1</Module_FlashHider>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>

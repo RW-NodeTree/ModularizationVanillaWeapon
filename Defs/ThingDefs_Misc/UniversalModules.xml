@@ -230,12 +230,10 @@
 						<UITexPath>ui/icons/AttachmentIcon/AttachmentIcon_Scope</UITexPath>
 						<postion>(-0.00625,0.1,0.06875)</postion>
 						<scale>(0.8,1,0.8)</scale>
-						<filter>
-							<thingDefs>
-								<li>Module_HoloSight</li>
-								<li>Module_RedDotSight</li>
-							</thingDefs>
-						</filter>
+						<filterWithWeights>
+							<Module_HoloSight>1</Module_HoloSight>
+							<Module_RedDotSight>1</Module_RedDotSight>
+						</filterWithWeights>
 					</li>
 				</attachmentProperties>
 			</li>
