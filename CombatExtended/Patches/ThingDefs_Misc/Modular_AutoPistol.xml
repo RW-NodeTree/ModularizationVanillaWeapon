@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="RW_ModularizationWeapon.CombatExtended.PatchOperationMakeMWCECompatible">
 		<defName>Gun_ModularAutoPistol</defName>
 		<statBases>
 			<Mass>1.11</Mass>
@@ -64,7 +64,7 @@
 	</Operation>
 
 
-	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="RW_ModularizationWeapon.CombatExtended.PatchOperationMakeMWCECompatible">
 		<defName>Gun_ModularRevolver</defName>
 		<statBases>
 			<Mass>1.39</Mass>

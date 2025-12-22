@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="RW_ModularizationWeapon.CombatExtended.PatchOperationMakeMWCECompatible">
 		<defName>Gun_ModularAssaultRifle</defName>
 		<statBases>
 			<Mass>3.26</Mass>

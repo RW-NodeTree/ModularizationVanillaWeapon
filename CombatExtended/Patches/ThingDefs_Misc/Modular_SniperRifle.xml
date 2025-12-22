@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="RW_ModularizationWeapon.CombatExtended.PatchOperationMakeMWCECompatible">
 		<defName>Gun_ModularSniperRifle</defName>
 		<statBases>
 			<Mass>7.30</Mass>
@@ -42,7 +42,7 @@
 		<AllowWithRunAndGun>false</AllowWithRunAndGun>
 	</Operation>
 
-	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="RW_ModularizationWeapon.CombatExtended.PatchOperationMakeMWCECompatible">
 		<defName>Gun_ModularBoltActionRifle</defName>
 		<statBases>
 			<Mass>4.19</Mass>
