@@ -4,29 +4,27 @@
 	<!--Underbarrel attachments-->
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_Bipod"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_Bipod"]/comps</xpath>
 		<value>
-			<extraComp>
-				<li Class="CombatExtended.CompProperties_BipodComp">
-					<catDef>bipodRifle</catDef>
-					<!--additional range with bipod set up -->
-					<additionalrange>3</additionalrange>
-					 <!--ticks to set up -->
-					<ticksToSetUp>150</ticksToSetUp>
-					 <!--recoil mult with bipod set up-->
-					<recoilMulton>0.8</recoilMulton>
-					 <!-- recoil mult without the bipod set up -->
-					<recoilMultoff>1</recoilMultoff>
-					 <!--warmup mult with the bipod set up -->
-					<warmupMult>0.85</warmupMult>
-					 <!--warmup mult without the bipod set up -->
-					<warmupPenalty>1</warmupPenalty>
-					 <!--sway mult with the bipod set up -->
-					<swayMult>0.75</swayMult>
-					 <!--sway mult without the bipod set up -->
-					<swayPenalty>1</swayPenalty>
-				</li>
-			</extraComp>
+			<li Class="CombatExtended.CompProperties_BipodComp">
+				<catDef>bipodRifle</catDef>
+				<!--additional range with bipod set up -->
+				<additionalrange>3</additionalrange>
+					<!--ticks to set up -->
+				<ticksToSetUp>150</ticksToSetUp>
+					<!--recoil mult with bipod set up-->
+				<recoilMulton>0.8</recoilMulton>
+					<!-- recoil mult without the bipod set up -->
+				<recoilMultoff>1</recoilMultoff>
+					<!--warmup mult with the bipod set up -->
+				<warmupMult>0.85</warmupMult>
+					<!--warmup mult without the bipod set up -->
+				<warmupPenalty>1</warmupPenalty>
+					<!--sway mult with the bipod set up -->
+				<swayMult>0.75</swayMult>
+					<!--sway mult without the bipod set up -->
+				<swayPenalty>1</swayPenalty>
+			</li>
 		</value>
 	</Operation>
 </Patch>
