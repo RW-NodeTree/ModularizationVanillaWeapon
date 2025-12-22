@@ -41,25 +41,6 @@
 	</Operation>
 
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularChainShotgun"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
-
-
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_ModularPumpShotgun</defName>
 		<statBases>
@@ -100,7 +81,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularChainShotgun"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/attachmentProperties/li[id="ModChainSG_Magazine"]</xpath>
+		<xpath>Defs/ThingDef[defName="Gun_ModularChainShotgun"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/attachmentProperties/li[id="ModChainSG_Magazine"]</xpath>
 		<value>
 			<verbPropertiesObjectPatchByChildPart Default="false" />
 		</value>
@@ -108,7 +89,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -120,7 +101,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagDrum"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -132,22 +113,22 @@
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch</xpath>
+		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch</xpath>
+		<xpath>Defs/ThingDef[defName="Module_ChainSG_MagDrum"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_SGmuzzleChoke"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_SGmuzzleChoke"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<ShotSpread>0.75</ShotSpread>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_ModChainSG_Chamber"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_ModChainSG_Chamber"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
 			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>

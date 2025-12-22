@@ -46,41 +46,22 @@
 		<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 	</Operation>
 
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularHeavySMG"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
-
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
 		<value>
 			<burstShotCount>6</burstShotCount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Module_HvySNG_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySNG_MagDrum"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
 		<value>
 			<burstShotCount>6</burstShotCount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -93,7 +74,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_HvySNG_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySNG_MagDrum"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -106,7 +87,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_HvySMG_Chamber"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_Chamber"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
 			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>
@@ -115,14 +96,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_HvySMG_WireStock"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_WireStock"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>0.875</SwayFactor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_HvySMG_Stock"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_HvySMG_Stock"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>0.75</SwayFactor>
 		</value>

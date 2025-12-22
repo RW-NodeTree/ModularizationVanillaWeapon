@@ -47,26 +47,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularAssaultRifle"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
-
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -79,7 +60,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AR_MagDrum"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_MagDrum"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -92,7 +73,7 @@
 	
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AR_LongBarrel"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_LongBarrel"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<ShotSpread>0.75</ShotSpread>
 		</value>
@@ -101,7 +82,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<statOffset>
 				<BurstShotCount>4</BurstShotCount>
@@ -115,11 +96,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Module_AR_LongBarrel"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_LongBarrel"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AR_Chamber"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AR_Chamber"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
 			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>

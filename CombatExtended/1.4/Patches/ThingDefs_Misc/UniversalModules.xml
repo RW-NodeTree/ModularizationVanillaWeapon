@@ -4,7 +4,7 @@
 	<!--Underbarrel attachments-->
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_Bipod"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_Bipod"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<extraComp>
 				<li Class="CombatExtended.CompProperties_BipodComp">

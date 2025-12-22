@@ -44,23 +44,4 @@
 		</weaponTags>
 		<researchPrerequisite>BlowbackOperation</researchPrerequisite>
 	</Operation>
-
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularMachinePistol"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
 </Patch>

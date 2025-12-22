@@ -44,26 +44,7 @@
 
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularAutoPistol"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
-
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_AP_MagClip"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_AP_MagClip"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -75,7 +56,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularAutoPistol"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/attachmentProperties/li[id="ModAP_Magazine"]</xpath>
+		<xpath>Defs/ThingDef[defName="Gun_ModularAutoPistol"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/attachmentProperties/li[id="ModAP_Magazine"]</xpath>
 		<value>
 			<verbPropertiesObjectPatchByChildPart Default="false" />
 		</value>

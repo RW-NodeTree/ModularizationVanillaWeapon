@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_Silencer"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_Silencer"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<ShotSpread>0.85</ShotSpread>
 		</value>
@@ -10,7 +10,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_MuzzleBrake"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_MuzzleBrake"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>0.875</SwayFactor>
 		</value>
@@ -18,7 +18,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_MuzzleCompensator"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_MuzzleCompensator"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>0.8</SwayFactor>
 		</value>
@@ -26,7 +26,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_FlashHider"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_FlashHider"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>0.9</SwayFactor>
 		</value>

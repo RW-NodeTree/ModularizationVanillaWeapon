@@ -47,41 +47,22 @@
 	</Operation>
 
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Gun_ModularChargeRifle"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
-		<value>
-			<compGetGizmosExtraAllowedCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compGetGizmosExtraAllowedCompType>
-			<compPropertiesInitializeCompType>
-				<li>CombatExtended.CompAmmoUser</li>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesInitializeCompType>
-			<compPropertiesCreateInstanceCompType>
-				<li>CombatExtended.CompFireModes</li>
-			</compPropertiesCreateInstanceCompType>
-		</value>
-		<order>Append</order>
-	</Operation>
-
-
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Module_CR_Mag"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<xpath>Defs/ThingDef[defName="Module_CR_Mag"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
 		<value>
 			<burstShotCount>6</burstShotCount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Module_CR_MagExt"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
+		<xpath>Defs/ThingDef[defName="Module_CR_MagExt"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/verbPropertiesObjectPatch/li/burstShotCount</xpath>
 		<value>
 			<burstShotCount>6</burstShotCount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_CR_Mag"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_CR_Mag"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -93,7 +74,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_CR_MagExt"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]</xpath>
+		<xpath>Defs/ThingDef[defName="Module_CR_MagExt"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]</xpath>
 		<value>
 			<compPropertiesObjectPatch>
 				<il Reader-Class="CombatExtended.CompProperties_AmmoUser">
@@ -105,7 +86,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Module_CR_Capacitor"]/comps/li[@Class="RW_ModularizationWeapon.CompProperties_ModularizationWeapon"]/statMultiplier</xpath>
+		<xpath>Defs/ThingDef[defName="Module_CR_Capacitor"]/modExtensions/li[@Class="RW_ModularizationWeapon.ModularizationWeaponExtension"]/statMultiplier</xpath>
 		<value>
 			<SwayFactor>1.1333</SwayFactor>
 			<TicksBetweenBurstShots>0.75</TicksBetweenBurstShots>
